@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
+import { CiMail } from "react-icons/ci";
 
 
 export default function FindMe() {
@@ -19,19 +20,10 @@ export default function FindMe() {
                     href="mailto:sg5043161@gmail.com"
                     className="flex items-center justify-center aspect-square shadow-xl dark:shadow-thick hover:bg-zinc-100 dark:hover:bg-primary ring-1 bg-zinc-50 dark:ring-white/10 ring-primary/5 dark:bg-tertiary rounded-lg hover:ring-primary/5 dark:hover:ring-white/20 duration-300 group transition-all h-12 w-12"
                 >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-mail h-6 w-6 group-hover:scale-125 duration-300 text-primary dark:text-white group-hover text-primary:dark:text-white/50"
-                        viewBox="0 0 24 24"
-                        stroke-width="0.8"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                    ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
-                        d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"
-                    ></path><path d="M3 7l9 6l9 -6"></path></svg
-                    >
+                    {
+                        //  icon icon-tabler icon-tabler-mail h-6 w-6 group-hover:scale-125 duration-300 text-primary dark:text-white group-hover text-primary:dark:text-white/50
+                    }
+                    <CiMail strokeWidth={0.2} size={25} style={{opacity: 0.6}}/>
                 </a>
                 <a
                     href="https://github.com/Sebastian-411"
