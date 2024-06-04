@@ -9,6 +9,7 @@ import { FlagIcon } from "react-flag-kit";
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [t] = useTranslation("global")
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -24,7 +25,7 @@ const LanguageSelector = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <TfiWorld size={19} className="mr-3" />
-          Idioma
+          {t("header.language")}
           <MdKeyboardArrowDown className="-mr-1 ml-2 h-5 w-5" />
         </button>
       </div>
@@ -37,14 +38,14 @@ const LanguageSelector = () => {
               onClick={() => changeLanguage('en')}
             >
               <FlagIcon code="US" size={20} className='mr-2' />
-              <span className='mr-5 lg:mr-12 md:mr-16'>English</span>
+              <span className='mr-5 lg:mr-12 md:mr-16'>{t("header.english")}</span>
             </button>
             <button
               className="flex items-center justify-start px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full"
               onClick={() => changeLanguage('es')}
             >
               <FlagIcon code="ES" size={20} className='mr-2' />
-              <span>Español</span>
+              <span>{t("header.spanish")}</span>
             </button>
           </div>
         </div>
