@@ -1,11 +1,10 @@
-import React from 'react'
-import { useTranslation } from 'react-i18next';
+import React from 'react';
 import AboutMe from './AboutMe';
-import FindMe from './FindMe';
 import CV from './CV';
+import FindMe from './FindMe';
+import Experience from './content/Experience';
 
 export default function Content() {
-    const [t] = useTranslation("global")
 
     return (
         <section>
@@ -17,22 +16,8 @@ export default function Content() {
                     <div className="ring-1 dark:ring-white/10 ring-primary/5 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
                         <FindMe />
                     </div>
-                    <div className="ring-1 lg:row-span-2 flex flex-col justify-between group hover:ring-primary/10 dark:hover:ring-white/20 duration-300 h-full dark:ring-white/10 ring-primary/5 lg:row-start-2 md:grid-cols-2 md:grid lg:gap-0 md:items-center md:gap-12 lg:grid-cols-none lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
-                        <div>
-                            <p className="ext-xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
-                                Monomod
-                            </p>
-                            <p className="mt-4 text-sm text-zinc-500 dark:text-zinc-400">
-                                Design & development subscriptions for startups.
-                                <br />
-                                <br />
-                                Monomod streamlines the design process with a fixed monthly rate
-                                and limitless design requests. Say goodbye to phone calls and
-                                extensive contracts; reach out to Monomod directly at any time.
-                                Embrace flexibility, pause or terminate your subscription whenever
-                                you need.
-                            </p>
-                        </div>
+                    <div className="ring-1 lg:row-span-2 flex flex-col justify-between h-full dark:ring-white/10 lg:row-start-2  lg:gap-0 md:items-center md:gap-12  lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+                        <Experience />
                     </div>
                     <div className="ring-1 dark:ring-white/10  ring-primary/5 flex flex-col justify-between items-center rounded-3xl shadow-xl dark:shadow-thick p-8  bg-white dark:bg-secondary overflow-hidden text-center lg:text-left">
                         <CV />
