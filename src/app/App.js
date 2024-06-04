@@ -1,20 +1,12 @@
-import Banner from "./components/Banner";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+import Content from "./components/Content";
 import Header from "./components/Header";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
 
 function App() {
   return (
-    <>
+    <div className="bg-zinc-200">
       <Header />
-      <Banner />
-      <Contact />
-      <Skills />
-      <Projects />
-      <Experience />
-    </>
+      <Content />
+    </div>
   );
 }
 

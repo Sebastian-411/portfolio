@@ -1,5 +1,15 @@
 {
+    "header": {
+        "language": "Lenguaje",
+        "spanish": "Español",
+        "english": "Ingles"
+    },
     "banner" : {
-        "message": "bienvenido"
+        "welcome": "Hey, bienvenido a mi portafolio!",
+        "welcome_message": "Soy un Ingeniero de software orientado a resultados con experiencia en el diseño de arquitecturas escalables y liderando equipos para ofrecer soluciones innovadoras. 💻 Experto en metodologías de desarrollo de software y dedicado al aprendizaje continuo, networking en la industria tecnológica y desarrollo profesional. 📚 Experimentado en liderazgo con un gran interés en metodologías ágiles, tecnologías de vanguardia, automatización, DevOps e investigación. 🌟",
+        "find_me": "Estoy <br /> en",
+        "cv_tittle": "Descarga mi CV!",
+        "cv_description": "Eche un vistazo más de cerca a los hitos y éxitos que dan forma a mi carrera, ofreciendo una ventana a mi dedicación profesional y experiencia."
+
     }
 }
