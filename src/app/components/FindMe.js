@@ -2,6 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 import { CiMail } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
+import { BsTwitterX } from "react-icons/bs";
 
 
 export default function FindMe() {
@@ -33,19 +34,7 @@ export default function FindMe() {
                     href="https://twitter.com/Sebastian411_"
                     className="flex items-center justify-center aspect-square shadow-xl dark:shadow-thick hover:bg-zinc-100 dark:hover:bg-primary ring-1 bg-zinc-50 dark:ring-white/10 ring-primary/5 dark:bg-tertiary rounded-lg hover:ring-primary/5 dark:hover:ring-white/20 duration-300 group transition-all h-12 w-12"
                 >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler h-6 w-6 group-hover:scale-125 duration-300 text-primary dark:text-white group-hover text-primary:dark:text-white/50 icon-tabler-brand-x"
-                        viewBox="0 0 24 24"
-                        stroke-width="0.8"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                    ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
-                        d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path
-                            d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg
-                    >
+                    <BsTwitterX  className='group-hover:scale-125 duration-300 text-primary dark:text-white group-hover text-primary:dark:text-white/50' strokeWidth={0.1} size={25} style={{opacity: 0.6}}/>
                 </a>
                 <a
                     href="https://www.linkedin.com/in/sebastian-diaz-sanchez/"
