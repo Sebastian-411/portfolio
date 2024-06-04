@@ -1,10 +1,11 @@
 import React from 'react'
-import AboutMe from './content/AboutMe';
-import FindMe from './content/FindMe';
-import CV from './content/CV';
-import Experience from './content/Experience';
+import { useTranslation } from 'react-i18next';
+import AboutMe from './AboutMe';
+import FindMe from './FindMe';
+import CV from './CV';
 
 export default function Content() {
+    const [t] = useTranslation("global")
 
     return (
         <section>
