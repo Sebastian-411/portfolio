@@ -20,10 +20,7 @@ export default function FindMe() {
                     href="mailto:sg5043161@gmail.com"
                     className="flex items-center justify-center aspect-square shadow-xl dark:shadow-thick hover:bg-zinc-100 dark:hover:bg-primary ring-1 bg-zinc-50 dark:ring-white/10 ring-primary/5 dark:bg-tertiary rounded-lg hover:ring-primary/5 dark:hover:ring-white/20 duration-300 group transition-all h-12 w-12"
                 >
-                    {
-                        //  icon icon-tabler icon-tabler-mail h-6 w-6 group-hover:scale-125 duration-300 text-primary dark:text-white group-hover text-primary:dark:text-white/50
-                    }
-                    <CiMail strokeWidth={0.2} size={25} style={{opacity: 0.6}}/>
+                    <CiMail className='group-hover:scale-125 duration-300 text-primary dark:text-white group-hover text-primary:dark:text-white/50' strokeWidth={0.2} size={25} style={{opacity: 0.6}}/>
                 </a>
                 <a
                     href="https://github.com/Sebastian-411"
