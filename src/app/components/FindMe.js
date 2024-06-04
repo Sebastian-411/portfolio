@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 import { CiMail } from "react-icons/ci";
+import { FiGithub } from "react-icons/fi";
 
 
 export default function FindMe() {
@@ -26,19 +27,7 @@ export default function FindMe() {
                     href="https://github.com/Sebastian-411"
                     className="flex items-center justify-center aspect-square shadow-xl dark:shadow-thick hover:bg-zinc-100 dark:hover:bg-primary ring-1 bg-zinc-50 dark:ring-white/10 ring-primary/5 dark:bg-tertiary rounded-lg hover:ring-primary/5 dark:hover:ring-white/20 duration-300 group transition-all h-12 w-12"
                 >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-brand-github h-6 w-6 group-hover:scale-125 duration-300 text-primary dark:text-white group-hover text-primary:dark:text-white/50"
-                        viewBox="0 0 24 24"
-                        stroke-width="0.8"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                    ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
-                        d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
-                    ></path></svg
-                    >
+                    <FiGithub className='group-hover:scale-125 duration-300 text-primary dark:text-white group-hover text-primary:dark:text-white/50' strokeWidth={0.5} size={25} />
                 </a>
                 <a
                     href="https://twitter.com/Sebastian411_"
