@@ -2,6 +2,7 @@ export const experiences =
     [
         {
             title: 'Distecnoweb',
+            date: '2023 - 2024',
             projects: [
                 {
                     title: 'Hotel Alba Group Cartagena',
@@ -16,6 +17,7 @@ export const experiences =
         },
         {
             title: 'VelezReyes+',
+            date: '2023 - Actualidad',
             projects: [
                 {
                     title: 'Tech Fellow Program',
@@ -28,8 +30,10 @@ export const experiences =
                 }
             ]
         },
+        
         {
             title: 'Universidad ICESI',
+            date: '2022 - 2024',
             projects: [
                 {
                     title: 'Asistente de Investigación en Bases de Datos en el Ministerio de Relaciones Exteriores',
