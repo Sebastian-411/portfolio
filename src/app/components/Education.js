@@ -20,7 +20,7 @@ export default function Education() {
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                 {item.title}
               </h3>
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+              <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
                 {item.description}
               </p>
             </li>
