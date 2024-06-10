@@ -11,8 +11,8 @@ export const interests = [
   },
   {
     skill:
-      "Enthusiastic about Agile Methodologies, embracing iterative and collaborative approaches to project management.",
-    icon: "🔄",
+      "Team Leadership, finds fulfillment in guiding and empowering teams towards success.",
+    icon: "👥",
   },
   {
     skill:
@@ -25,8 +25,7 @@ export const interests = [
     icon: "⚙️",
   },
   {
-    skill:
-      "Research, enjoys delving into new technologies and methodologies to drive innovation and improvement.",
+    skill: "Researches, enjoys exploring new technologies and methodologies",
     icon: "🔍",
   },
 ];
