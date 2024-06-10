@@ -1,5 +1,6 @@
 import React from "react";
 import { techSkills } from "../../const/techSkills";
+import "../../css/text-border.css";
 
 export default function TechSkills() {
   return (
@@ -14,11 +15,11 @@ export default function TechSkills() {
             className="flex items-center space-x-4 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md transition-transform transform hover:scale-105"
           >
             <div className="flex-shrink-0">
-              <div className="bg-black text-white text-xl flex items-center justify-center rounded-full h-9 w-9">
-                <span className="">{item.icon}</span>
+              <div className="bg-gray-500 text-white text-xl flex items-center justify-center rounded-full h-9 w-9">
+                <span className="emoji">{item.icon}</span>
               </div>
             </div>
-            <p className="text-md text-gray-700 dark:text-gray-300">
+            <p className="text-sm text-gray-700 dark:text-gray-300">
               {item.skill}
             </p>
           </li>
