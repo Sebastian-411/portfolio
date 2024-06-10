@@ -8,7 +8,7 @@ export default function Carousel() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % skillsSection.length);
-    }, 2000);
+    }, 5000);
 
     return () => clearInterval(intervalId);
   }, [currentIndex]);
