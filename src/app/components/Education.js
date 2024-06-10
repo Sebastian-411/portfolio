@@ -6,7 +6,7 @@ export default function Education() {
     <>
       <div>
         <p className="text-2xl font-normal tracking-tight text-primary dark:text-white lg:text-6xl">
-          Education and Licenses
+          Education
         </p>
       </div>
       <div>
