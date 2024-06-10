@@ -1,43 +1,28 @@
 import React from "react";
+import { techSkills } from "../../const/techSkills";
 
 export default function TechSkills() {
   return (
     <div>
-      🛠️ Technical Skills: 🛠️
-      <ul className="relative mt-10">
-        <li>
-          <div>
-            Proficient in Software Development, specializing in software
-            architecture and database management. 💻🏗️
-          </div>
-        </li>
-        <li>
-          <div>
-            Extensive experience in Java programming, including frameworks like
-            Spring Boot. ☕
-          </div>
-        </li>
-        <li>
-          <div>
-            Skilled in JavaScript and TypeScript frameworks such as React and
-            Node.js. 🟩
-          </div>
-        </li>
-        <li>
-          <div>
-            Proficient in Python, with expertise in Django and Flask frameworks.
-            🐍
-          </div>
-        </li>
-        <li>
-          <div>Knowledgeable in AWS for deployment and CI/CD pipelines. ☁️</div>
-        </li>
-        <li>
-          <div>
-            Experienced in using Jira, GitHub, GitHub Actions, and GitHub Issues
-            for project management and version control. 🛠️
-          </div>
-        </li>
+      <h2 className="text-3xl font-extrabold text-center mb-8 text-gray-800 dark:text-gray-200">
+        🛠️ Technical Skills 🛠️
+      </h2>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {techSkills.map((item, index) => (
+          <li
+            key={index}
+            className="flex items-center space-x-4 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md transition-transform transform hover:scale-105"
+          >
+            <div className="flex-shrink-0">
+              <div className="bg-black text-white text-xl flex items-center justify-center rounded-full h-9 w-9">
+                <span className="">{item.icon}</span>
+              </div>
+            </div>
+            <p className="text-md text-gray-700 dark:text-gray-300">
+              {item.skill}
+            </p>
+          </li>
+        ))}
       </ul>
     </div>
   );
