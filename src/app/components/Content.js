@@ -5,6 +5,8 @@ import FindMe from "./FindMe";
 import Experience from "./content/Experience";
 import Education from "./Education";
 import SoftSkills from "./skills/SoftSkills";
+import Interest from "./skills/Interest";
+import TechSkills from "./skills/TechSkills";
 
 export default function Content() {
   return (
@@ -84,7 +86,7 @@ export default function Content() {
             </div>
           </div>
           <div className="lg:col-span-2 xl:col-span-1 h-full flex flex-col justify-between lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-secondary shadow-xl dark:shadow-thick rounded-3xl p-8">
-            <SoftSkills />
+            <Interest />
           </div>
         </div>
       </div>

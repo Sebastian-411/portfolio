@@ -1,14 +1,15 @@
 import React from "react";
-import { softSkills } from "../../../const/softSkills";
 import "../../../css/text-border.css";
+import { interests } from "../../../const/Interests";
 import Title from "./utils/Title";
 
-export default function SoftSkills() {
+export default function Interest() {
   return (
     <div>
-      <Title title="🧏‍♂️ Soft Skills 🧏‍♀️" />
+      <Title title="😍 Interests 😍" />
+
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {softSkills.map((item, index) => (
+        {interests.map((item, index) => (
           <li
             key={index}
             className="flex items-center space-x-4 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md transition-transform transform hover:scale-105"

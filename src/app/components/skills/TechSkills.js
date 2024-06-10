@@ -1,13 +1,13 @@
 import React from "react";
 import { techSkills } from "../../../const/techSkills";
 import "../../../css/text-border.css";
+import Title from "./utils/Title";
 
 export default function TechSkills() {
   return (
     <div>
-      <h2 className="text-3xl font-extrabold text-center mb-8 text-gray-800 dark:text-gray-200">
-        🛠️ Technical Skills 🛠️
-      </h2>
+      <Title title="💻 Tech Skills 💻" />
+
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {techSkills.map((item, index) => (
           <li
