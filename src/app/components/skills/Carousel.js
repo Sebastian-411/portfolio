@@ -8,13 +8,15 @@ export default function Carousel() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % skillsSection.length);
-    }, 5000);
+      setSeed(Math.random() * 1000);
+    }, 10000);
 
     return () => clearInterval(intervalId);
   }, [currentIndex]);
 
   const next = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % skillsSection.length);
+    setSeed(Math.random() * 1000);
   };
 
   const back = () => {
@@ -22,13 +24,16 @@ export default function Carousel() {
       (prevIndex) =>
         (prevIndex - 1 + skillsSection.length) % skillsSection.length
     );
+
+    setSeed(Math.random() * 1000);
   };
 
   const currentSection = skillsSection[currentIndex];
 
+  const [seed, setSeed] = useState(1);
   return (
     <div>
-      <SkillSection scope={currentSection} back={back} next={next} />
+      <SkillSection key={seed} scope={currentSection} back={back} next={next} />
     </div>
   );
 }

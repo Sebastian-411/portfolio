@@ -8,14 +8,14 @@ export default function SkillSection({ scope, back, next }) {
     <div className="skill-section">
       <Title title={scope.title} back={back} next={next} />
 
-      <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6 animate-slidein300 opacity-0">
         {scope.content.map((item, index) => (
           <li
             key={index}
             className="flex items-center space-x-4 bg-white dark:bg-gray-800 rounded-lg shadow-md transition-transform transform hover:scale-105 border border-gray-300 h-56"
           >
             <div className="flex-shrink-0 h-full flex items-center border-r border-gray-300 mt-4 mb-4 ml-4 pr-2">
-              <div className="bg-gray-900/80 text-white text-xl flex items-center justify-center rounded-full h-9 w-9">
+              <div className="bg-gray-900/80 text-white text-xl flex items-center justify-center rounded-full size-10">
                 <span className="emoji">{item.icon}</span>
               </div>
             </div>
