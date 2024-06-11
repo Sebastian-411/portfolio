@@ -11,7 +11,7 @@ export const experiences =
                     realized_work: "En este proyecto, se desarrolló un módulo de Prestashop especializado en la búsqueda dinámica de reservas de habitaciones para hoteles. El módulo incorporaba precios dinámicos basados en la ocupación del hotel, demografía de los huéspedes y duración de la estancia. Se implementaron funcionalidades para calcular precios en función de la congestión del hotel, las características de los huéspedes (adultos, niños, ancianos) y descuentos por estancias prolongadas. Además, se diseñó un proceso de reserva en la web que garantizaba una experiencia de usuario fluida, desde la visualización de la información hasta la confirmación de la reserva. También se creó una sección administrativa para facilitar el acceso a datos valiosos sobre las reservas. El módulo fue desarrollado utilizando PHP, HTML y JavaScript, y se integró sin problemas en la plataforma Prestashop. Para asegurar la precisión de la información sobre precios y disponibilidad, se utilizó la API de Little Hotelier para obtener datos en tiempo real.",
                     date: '2023',
                     technologies: ['Prestashop', 'PHP', 'HTML', 'JavaScript'],
-                    insights: ['']
+                    insights: ['Product']
                 }
             ]
         },
