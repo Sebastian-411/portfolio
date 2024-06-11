@@ -19,7 +19,7 @@ export default function SkillSection({ scope, back, next }) {
                 <span className="emoji">{item.icon}</span>
               </div>
             </div>
-            <p className="text-sm mt-4 mb-4 mr-4 text-gray-700 dark:text-gray-300">
+            <p className="text-sm my-4 pr-4 text-gray-700 dark:text-gray-300">
               {item.skill}
             </p>
           </li>
