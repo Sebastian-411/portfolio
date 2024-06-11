@@ -1,32 +1,26 @@
 export const softSkills = [
   {
-    skill:
-      "Strategic Planning expertise, guiding projects with long-term vision and goal-setting.",
+    skill: "Strategic Planning with long-term vision and goal-setting.",
     icon: "🎯",
   },
   {
-    skill:
-      "Skilled in Knowledge Management, organizing and sharing information efficiently.",
+    skill: "Knowledge Management, organizing information.",
     icon: "📚",
   },
   {
-    skill:
-      "Demonstrates Autonomy, capable of self-directed work and decision-making.",
+    skill: "Demonstrates Autonomy in self-directed work and decisions.",
     icon: "🧠",
   },
   {
-    skill:
-      "Proficient in Project Management, ensuring timely delivery and effective resource allocation.",
+    skill: "Proficient in Project Management for timely delivery.",
     icon: "📅",
   },
   {
-    skill:
-      "Experienced in Leadership Development, fostering team growth and cohesion.",
+    skill: "Experienced in Leadership Development and team growth.",
     icon: "🌱",
   },
   {
-    skill:
-      "Demonstrates Proactivity, identifying opportunities and taking initiative for improvement.",
+    skill: "Demonstrates Proactivity, identifying opportunities.",
     icon: "🚀",
   },
 ];

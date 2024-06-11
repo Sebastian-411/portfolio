@@ -1,31 +1,26 @@
 export const techSkills = [
   {
-    skill:
-      "Proficient in Software Development, specializing in software architecture and database management.",
+    skill: "Proficient in Software Development and architecture.",
     icon: "💻",
   },
   {
-    skill:
-      "Extensive experience in Java programming, including frameworks like Spring Boot.",
+    skill: "Experienced in Java and Spring Boot framework.",
     icon: "☕",
   },
   {
-    skill:
-      "Skilled in JavaScript and TypeScript frameworks such as React and Node.js.",
+    skill: "Skilled in JavaScript and TypeScript frameworks.",
     icon: "🟩",
   },
   {
-    skill:
-      "Proficient in Python, with expertise in Django and Flask frameworks.",
+    skill: "Proficient in Python with Django and Flask expertise.",
     icon: "🐍",
   },
   {
-    skill: "Knowledgeable in AWS for deployment and CI/CD pipelines.",
+    skill: "Knowledgeable in AWS for deployment and CI/CD.",
     icon: "☁️",
   },
   {
-    skill:
-      "Experienced in using Jira, GitHub, GitHub Actions, and GitHub Issues for project management and version control.",
+    skill: "Experienced in Jira, GitHub, and version control.",
     icon: "🛠️",
   },
 ];
