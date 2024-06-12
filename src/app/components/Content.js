@@ -1,9 +1,9 @@
 import React from "react";
-import AboutMe from "./AboutMe";
-import CV from "./CV";
-import FindMe from "./FindMe";
+import AboutMe from "./content/AboutMe";
+import CV from "./content/CV";
+import FindMe from "./content/FindMe";
 import Experience from "./content/Experience";
-import Education from "./Education";
+import Education from "./content/Education";
 
 export default function Content() {
   return (

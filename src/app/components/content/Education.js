@@ -1,5 +1,5 @@
 import React from "react";
-import { education } from "./../../const/education";
+import { education } from "../../../const/education";
 
 export default function Education() {
   return (
