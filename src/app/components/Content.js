@@ -63,8 +63,8 @@ export default function Content() {
             <div className="md:grid md:grid-cols-2 gap-6 lg:grid-cols-1">
               <div className="mt-4">
                 <p className="text-sm text-pink-500 dark:text-pink-400">
-                  "Big fan of asssssssssssssssssssssssssssssssssssssyour themes.
-                  They're well-organized, look clean, and are fast."
+                  "Big fan of your themes. They're well-organized, look clean,
+                  and are fast."
                 </p>
                 <p className="text-xs mt-2 text-zinc-500">
                   <span className="block text-xs">Kevin Focke</span>
