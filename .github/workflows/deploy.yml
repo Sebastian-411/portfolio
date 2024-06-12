@@ -12,10 +12,10 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
 
-      - name: Use Node.js 20
+      - name: Use Node.js 16
         uses: actions/setup-node@v2
         with:
-          node-version: "20"
+          node-version: "16"
 
       - name: 🔨 Build Project
         run: |
@@ -28,5 +28,5 @@ jobs:
           server: ${{ secrets.GIT_CPANEL_REACT_SERVER }}
           username: ${{ secrets.GIT_CPANEL_REACT_USER }}
           password: ${{ secrets.GIT_CPANEL_REACT_PWD }}
-          protocol: ${{ secrets.GIT_CPANEL_REACT_PROTOCOL }}
+          protocol: ftp
           local-dir: ./build/
