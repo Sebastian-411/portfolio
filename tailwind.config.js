@@ -2,7 +2,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 module.exports = {
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     fontSize: {
       xs: [
@@ -90,14 +90,14 @@ module.exports = {
       },
       colors: {
         // Gray
-        "primary": "#101010",
-  "secondary": "#1a1a1a",
-  "tertiary": "#262626",
+        primary: "#101010",
+        secondary: "#1a1a1a",
+        tertiary: "#262626",
         // Purple
         //primary:"#080118",
         //secondary:"#140d23",
         //tertiary:"#1d1333",
-        white:"#ececec",
+        white: "#ececec",
       },
       borderRadius: {
         "4xl": "2rem",
@@ -107,10 +107,21 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
+      keyframes: {
+        slidein: {
+          from: { opacity: "0", transform: "translateY(-10px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        slidein300: "slidein 1s ease 300ms forwards",
+        slidein500: "slidein 1s ease 500ms forwards",
+        slidein700: "slidein 1s ease 700ms forwards",
+      },
     },
   },
   plugins: [
-    require('@tailwindcss/typography'),
+    require("@tailwindcss/typography"),
     // ...
   ],
-}
+};

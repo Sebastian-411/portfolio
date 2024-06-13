@@ -5,6 +5,7 @@ import FindMe from "./content/FindMe";
 import Experience from "./content/Experience";
 import Education from "./content/Education";
 import Project from "./content/Project";
+import Carousel from "./skills/Carousel";
 
 export default function Content() {
   return (
@@ -17,13 +18,13 @@ export default function Content() {
           <div className="ring-1 dark:ring-white/10 ring-primary/5 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
             <FindMe />
           </div>
-          <div className="ring-1 lg:row-span-2 flex flex-col justify-between h-full dark:ring-white/10 lg:row-start-2  lg:gap-0 md:items-center md:gap-12  lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+          <div className="ring-1 lg:row-span-2  dark:ring-white/10 lg:row-start-2  lg:gap-0 md:items-center md:gap-12  lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
             <Experience />
           </div>
           <div className="ring-1 dark:ring-white/10  ring-primary/5 flex flex-col justify-between items-center rounded-3xl shadow-xl dark:shadow-thick p-8  bg-white dark:bg-secondary overflow-hidden text-center lg:text-left">
             <CV />
           </div>
-          <div className="ring-1 lg:row-start-3 items-center h-full flex p-8 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+          <div className="ring-1 lg:row-start-3 h-full flex p-8 flex-col justify-between  hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
             <Project />
           </div>
           <div className="lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 hover:ring-primary/5 bg-white dark:bg-secondary  dark:hover:ring-white/20 overflow-hidden duration-300 shadow-xl dark:shadow-thick rounded-3xl p-8">
@@ -86,17 +87,7 @@ export default function Content() {
             </div>
           </div>
           <div className="lg:col-span-2 xl:col-span-1 h-full flex flex-col justify-between lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-secondary shadow-xl dark:shadow-thick rounded-3xl p-8">
-            <p className="text-xl tracking-tight font-medium text-primary dark:text-white md:text-3xl">
-              As a digital designer, my expertise lies in crafting distinctive
-              visual identities for digital products.
-              <br />
-              <br />I hold the belief that an engaging design begins with shared
-              values, transparent communication, and a genuine respect for the
-              audience.
-            </p>
-            <p className="text-primary dark:text-white mt-4">
-              Michael Andreuzza
-            </p>
+            <Carousel />
           </div>
         </div>
       </div>
