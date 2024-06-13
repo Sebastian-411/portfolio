@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Project() {
   return (
-    <div className="flex flex-col flex-nowrap items-start justify-around h-full">
+    <div className="flex flex-col flex-nowrap items- justify-around h-full">
       <p className="text-xl text-primary dark:text-white lg:text-7xl tracking-tight">
         Projects
       </p>
