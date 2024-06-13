@@ -3,7 +3,7 @@ import { education } from "../../../const/education";
 
 export default function Education() {
   return (
-    <>
+    <div className="flex flex-col flex-nowrap items-center justify-evenly h-full">
       <div>
         <p className="text-2xl font-normal tracking-tight text-primary dark:text-white lg:text-6xl">
           Education
@@ -27,6 +27,6 @@ export default function Education() {
           ))}
         </ol>
       </div>
-    </>
+    </div>
   );
 }

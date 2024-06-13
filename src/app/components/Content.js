@@ -18,7 +18,7 @@ export default function Content() {
           <div className="ring-1 dark:ring-white/10 ring-primary/5 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
             <FindMe />
           </div>
-          <div className="ring-1 lg:row-span-2 flex flex-col justify-between h-full dark:ring-white/10 lg:row-start-2  lg:gap-0 md:items-center md:gap-12  lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+          <div className="ring-1 lg:row-span-2  dark:ring-white/10 lg:row-start-2  lg:gap-0 md:items-center md:gap-12  lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
             <Experience />
           </div>
           <div className="ring-1 dark:ring-white/10  ring-primary/5 flex flex-col justify-between items-center rounded-3xl shadow-xl dark:shadow-thick p-8  bg-white dark:bg-secondary overflow-hidden text-center lg:text-left">
