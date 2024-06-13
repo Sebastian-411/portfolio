@@ -9,7 +9,7 @@ export default function FindMe() {
   const [t] = useTranslation("global");
 
   return (
-    <div className="flex flex-col flex-nowrap items-center justify-around h-full">
+    <div className="flex flex-col flex-nowrap items-start justify-around h-full">
       <div className="w-full">
         <p
           dangerouslySetInnerHTML={{ __html: t("banner.find_me") }}

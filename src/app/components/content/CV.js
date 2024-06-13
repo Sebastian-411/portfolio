@@ -5,7 +5,7 @@ import { CiSaveDown2 } from "react-icons/ci";
 export default function CV() {
   const [t] = useTranslation("global");
   return (
-    <div className="flex flex-col flex-nowrap items-center justify-around h-full">
+    <div className="flex flex-col flex-nowrap items-start justify-around h-full">
       <p className="text-xl text-primary dark:text-white lg:text-7xl tracking-tight">
         {t("banner.cv_tittle")}
       </p>

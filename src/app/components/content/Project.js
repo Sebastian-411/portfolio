@@ -2,18 +2,16 @@ import React from "react";
 
 export default function Project() {
   return (
-    <div>
-      <div>
-        <p className="text-xl text-primary dark:text-white lg:text-7xl tracking-tight">
-          Projects
-        </p>
-        <p className="mt-4 text-sm text-zinc-500 dark:text-zinc-400 md:max-w-xs lg:max-w-none">
-          Explore my diverse projects, each with a unique story and
-          contribution. 🌟 From technical innovations to practical solutions,
-          each project showcases my dedication to effective problem-solving. 🚀
-          Dive in to discover how I can add value to your endeavors!
-        </p>
-      </div>
+    <div className="flex flex-col flex-nowrap items-start justify-around h-full">
+      <p className="text-xl text-primary dark:text-white lg:text-7xl tracking-tight">
+        Projects
+      </p>
+      <p className="mt-4 text-sm text-zinc-500 dark:text-zinc-400 md:max-w-xs lg:max-w-none">
+        Explore my diverse projects, each with a unique story and contribution.
+        🌟 From technical innovations to practical solutions, each project
+        showcases my dedication to effective problem-solving. 🚀 Dive in to
+        discover how I can add value to your endeavors!
+      </p>
       <div className="w-full mt-8 md:max-w-xs lg:max-w-none">
         <a
           href={`/projects`}
