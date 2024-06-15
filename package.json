@@ -21,6 +21,7 @@
     "react-router-dom": "^6.23.1",
     "react-scripts": "latest",
     "react-slick": "^0.30.2",
+    "react-toastify": "^10.0.5",
     "resolve-url-loader": "latest",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.4",

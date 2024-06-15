@@ -9,6 +9,8 @@ import Carousel from "./skills/Carousel";
 import Certification from "./content/Certification";
 
 export default function Content() {
+
+
   return (
     <section>
       <div className="p-4">
