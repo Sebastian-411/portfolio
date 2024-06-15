@@ -1,33 +1,15 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import ExperienceCard from "../card/ExperienceCard";
 import { experiences } from "../../../const/experiences";
+import ExperienceCard from "../card/ExperienceCard";
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
 
-const NextArrow = (props) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "blue" }}
-      onClick={onClick}
-    />
-  );
-};
-
-const PrevArrow = (props) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "blue" }}
-      onClick={onClick}
-    />
-  );
-};
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Carousel() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -39,31 +21,33 @@ export default function Carousel() {
     setModalIsOpen(true);
   };
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-  };
-
   return (
     <>
-      <Slider
-        className="grid mt-4 md:grid-cols-3 lg:grid-cols-3 gap-y-8 gap-8 justify-center w-full"
-        {...settings}
+      <Swiper
+        className="w-full p-16"
+        spaceBetween={60}
+        autoplay={{
+          delay: 1000,
+        }}
+        direction="horizontal"
+        pagination={{
+          clickable: true,
+          dynamicMainBullets: true,
+        }}
+        slidesPerView={2}
+        modules={[Pagination, Navigation, Autoplay]}
+        navigation
       >
         {experiences.map((experience, index) => {
           return (
-            <div>
-              <p>{index}</p>
-              <ExperienceCard onClick={openModal} experience={experience} />
-            </div>
+            <SwiperSlide className="p-5">
+              <div>
+                <ExperienceCard onClick={openModal} experience={experience} />
+              </div>
+            </SwiperSlide>
           );
         })}
-      </Slider>
+      </Swiper>
 
       {experience ? (
         <Modal
@@ -73,24 +57,26 @@ export default function Carousel() {
             setModalIsOpen(false);
           }}
         >
-          <p className="ext-xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
-            {experience.title}
-          </p>
-          {experience.projects.map((project) => {
-            return (
-              <div>
-                <p>{project.title}</p>
-                <p>{project.work}</p>
-                <p>{project.description}</p>
-                <p>{project.realized_work}</p>
-                <p>{project.date}</p>
-                <p>{project.technologies}</p>
-                <p>{project.insights}</p>
-              </div>
-            );
-          })}
+          <div>
+            <p className="ext-xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
+              {experience.title}
+            </p>
+            {experience.projects.map((project) => {
+              return (
+                <div>
+                  <p>{project.title}</p>
+                  <p>{project.work}</p>
+                  <p>{project.description}</p>
+                  <p>{project.realized_work}</p>
+                  <p>{project.date}</p>
+                  <p>{project.technologies}</p>
+                  <p>{project.insights}</p>
+                </div>
+              );
+            })}
 
-          <button onClick={() => setModalIsOpen(false)}>close</button>
+            <button onClick={() => setModalIsOpen(false)}>close</button>
+          </div>
         </Modal>
       ) : (
         <></>

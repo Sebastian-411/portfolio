@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ExperienceCard({ onClick, experience }) {
   return (
-    <div>
+    <>
       <div
         onClick={() => onClick(experience)}
         className="hover:scale-125 hover:rounded-lg  hover:border-radius-2 hover:border-2 flex flex-col items-center  justify-center aspect-square shadow-xl dark:shadow-thick hover:bg-zinc-100 dark:hover:bg-primary ring-1 bg-zinc-50 dark:ring-white/10 ring-primary/5 dark:bg-tertiary rounded-lg hover:ring-primary/5 dark:hover:ring-white/20 duration-300 group transition-all "
@@ -22,6 +22,6 @@ export default function ExperienceCard({ onClick, experience }) {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
