@@ -1,0 +1,21 @@
+.Toastify .Toastify__toast--info {
+  background-color: #ff5722; 
+  color: white;
+  border-radius: 12px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 1.2em; 
+  padding: 16px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify .Toastify__toast-body a {
+  color: #ffdd57;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.Toastify .custom-toast {
+  min-width: 350px; 
+  max-width: 500px; 
+}
