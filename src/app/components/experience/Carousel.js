@@ -27,7 +27,7 @@ export default function Carousel() {
         className="w-full p-16"
         spaceBetween={60}
         autoplay={{
-          delay: 1000,
+          delay: 5000,
         }}
         direction="horizontal"
         pagination={{
