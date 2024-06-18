@@ -1,7 +1,5 @@
 # Juan Sebastián Díaz's Portfolio
 
-![Portfolio](https://sebastiandiazdev.com/logo.png)
-
 This is the repository for Juan Sebastián Díaz's portfolio, a passionate developer with experience in various technologies. The portfolio is built using React and deployed automatically via GitHub Actions.
 
 ## Description
