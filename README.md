@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Juan Sebastián Díaz's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Portfolio](https://sebastiandiazdev.com/logo.png)
 
-## Available Scripts
+This is the repository for Juan Sebastián Díaz's portfolio, a passionate developer with experience in various technologies. The portfolio is built using React and deployed automatically via GitHub Actions.
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This project is a website that showcases the work, skills, and experiences of Juan Sebastián Díaz. It is designed to provide an interactive and easy-to-navigate experience, allowing visitors to get to know his professional profile better.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Live Website
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Visit the live portfolio: [sebastiandiazdev.com](https://sebastiandiazdev.com)
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Interactive Interface:** Built with React for a dynamic and responsive user experience.
+- **Automatic Deployment:** Uses GitHub Actions for continuous deployment, ensuring smooth updates.
+- **Reusable Components:** Modular and maintainable code thanks to React components.
+- **SEO Optimization:** Implementation of SEO best practices to enhance search engine visibility.
+- **Responsive Design:** Automatically adapts to different screen sizes and devices.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React:** Main library for building the user interface.
+- **GitHub Actions:** CI/CD tool for automating deployment.
+- **CSS Modules:** Modular styling to keep CSS organized and local.
+- **React Router:** Single-page application navigation.
+- **Formik:** Form handling and data validation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before starting, make sure you have Node.js and npm installed on your machine.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Follow these steps to set up the project locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/Sebastian-411/portfolio.git
+   cd portfolio
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install dependencies:**
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Start the application:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+   The application will be available at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Deployment
 
-### Analyzing the Bundle Size
+The project uses GitHub Actions for automatic deployment. Every time a push is made to the main branch, GitHub Actions will build and deploy the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contribution
 
-### Making a Progressive Web App
+If you want to contribute to this project, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Fork the repository**
+2. **Create a new branch** (`git checkout -b feature/new-feature`)
+3. **Make your changes** and **commit them** (`git commit -m 'Add new feature'`)
+4. **Push to the branch** (`git push origin feature/new-feature`)
+5. **Open a Pull Request**
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+For any inquiries or suggestions, you can contact me  through:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **LinkedIn:** [Juan Sebastián Díaz](https://www.linkedin.com/in/sebastian-diaz-sanchez/)
+- **Email:** [info@sebastiandiazdev.com](mailto:info@sebastiandiazdev.com)
